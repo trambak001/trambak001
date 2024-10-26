@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gajanand Bakery</title>
+    <style>
+        body {
+            font-family: monospace;
+            background-color: antiquewhite;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+        header {
+            text-align: center;
+            padding: 100px 20px;
+            background-image: url('Screenshot 2024-10-26 114745.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: yellow;
+        }
+        nav ul li a:hover {
+            color: orange;
+        }
+        section {
+            padding: 20px;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        section.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        @media only screen and (max-width: 600px) {
+            header {
+                padding: 50px 10px;
+            }
+            nav ul li {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+        h3 {
+            color: #e87d3a;
+            font-style: italic;
+            font-family: monospace;
+        }
+        ul {
+            color: blue;
+            font-size: larger;
+        }
+        .price-list {
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <header class="fade-in">
+        <h1>Gajanand Bakery</h1>
+        <p>Modasa City, Aravalli, Gujarat, India</p>
+        <nav>
+            <ul>
+                <li><a href="bakery.html">Home</a></li>
+                <li><a href="order.html">Products</a></li>
+                <li><a href="https://www.instagram.com/gajanand_bakery_2024/?__pwa=1">Contact Us</a></li>
+                <li><a href="https://maps.app.goo.gl/ZBs7G33b4Dn1XPhi9" target="_blank">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Welcome to Gajanand Bakery!</h2>
+        <img src="The Art of Living.png" alt="Delicious Bakery Products">
+        <p style="font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: 500; font-style: italic;">
+            Discover our delightful range of Indian bakery products and special puffs. Fresh, tasty, and made with love just for you.
+        </p>
+        <h3 style="padding: 20px; color: blueviolet; font-family: broadway; text-align: center;">Our Menu:</h3>
+        <h4>Indian Bakery Delights:</h4>
+        <ul style="font-family: monospace; color: #bc7205;">
+            <li>Frash baked cookies</li>
+            <li>Soft and fluffy buns</li>
+            <li>Traditional Indian sweets</li>
+            <li>Khari</li>
+            <li>Toast</li>
+            <li>Cup Cake's</li>
+            <li>Farsan All type</li>
+            <li>Donuts</li>
+            <li>Puff</li>
+            <li>Cakes (theme cake also available)</li>
+            <li>Photo print cake</li>
+            <li>Ice Cream from <a href="https://www.hocco.in/" target="_blank">Hocco brand</a></li>
+            <li>And many more, check out our <a href="https://www.instagram.com/gajanand_bakery_2024/?__pwa=1" target="_blank">Insta</a></li>
+        </ul>
+        <h4>Special Puff:</h4>
+        <ul>
+            <li>Crispy and delicious puffs</li>
+            <li>Various fillings including spicy potatoes, paneer, and more</li>
+        </ul>
+    </section>
+
+    <!-- New Section for Price List -->
+    <section class="price-list fade-in slide-in">
+        <h3>Price List</h3>
+        
+        <!-- Text content in Gujarati -->
+      
+        <ul>
+            <li>ફ્રેશ બેકડ કૂકીઝ - ₹50</li>
+            <li>સોફ્ટ અને ફલફલ બન - ₹30</li>
+            <li>પરંપરાગત ભારતીય મીઠાઇ - ₹80</li>
+            <li>ખારી - ₹25</li>
+            <li>ટોસ્ટ - ₹20</li>
+            <li>કપ કેક્સ - ₹40</li>
+            <li>ફરસણ સર્વ પ્રકાર - ₹50</li>
+            <li>ડોનટ્સ - ₹60</li>
+            <li>પફ - ₹20</li>
+            <li>કેક્સ (આકર્ષક કેક્સ પણ ઉપલબ્ધ) - ₹300</li>
+            <li>ફોટો પ્રિંટ કેક - ₹350</li>
+            <li>હોકો બ્રાન્ડની આઈસક્રીમ - ₹50</li>
+        </ul>
+    </section>
+
+    <footer class="fade-in">
+        <p>© 2024 Gajanand Bakery</p>
+    </footer>
+
+    <script>
+        const sections = document.querySelectorAll('section');
+
+        const options = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, options);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
