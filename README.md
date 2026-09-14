@@ -1,71 +1,132 @@
+<!-- Header -->
 <div align="center">
-  <!-- Animated Waving Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Trambak%20001&fontSize=80&animation=fadeIn" />
 
-  <!-- Animated Typing Text -->
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F711A6&center=true&vCenter=true&width=435&lines=Software+Engineer;Transforming+Ideas+Into+Code;Always+Learning+%26+Creating" alt="Typing SVG" /></a>
+```
+██╗  ██╗███████╗████████╗    ██████╗  ██╗  ██╗ █████╗ ████████╗██╗██╗   ██╗ █████╗
+██║  ██║██╔════╝╚══██╔══╝    ██╔══██╗██║  ██║██╔══██╗╚══██╔══╝██║╚██╗ ██╔╝██╔══██╗
+███████║█████╗     ██║       ██████╔╝███████║███████║   ██║   ██║ ╚████╔╝ ███████║
+██╔══██║██╔══╝     ██║       ██╔══██╗██╔══██║██╔══██║   ██║   ██║  ╚██╔╝  ██╔══██║
+██║  ██║███████╗   ██║       ██████╔╝██║  ██║██║  ██║   ██║   ██║   ██║   ██║  ██║
+╚═╝  ╚═╝╚══════╝   ╚═╝       ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝   ╚═╝   ╚═╝  ╚═╝
+```
+
+**`data science · computer vision · building things that work`**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-bhatiyahet-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/bhatiyahet)
+[![GitHub followers](https://img.shields.io/github/followers/trambak001?style=flat-square&label=followers&color=333)](https://github.com/trambak001)
+[![B.Sc IT Data Science](https://img.shields.io/badge/B.Sc%20IT-Data%20Science-8B5CF6?style=flat-square)](https://ganpatuniversity.ac.in/)
+[![Location](https://img.shields.io/badge/📍-Ahmedabad,%20India-FF6B35?style=flat-square)](https://github.com/trambak001)
+
 </div>
 
 ---
 
-### ⚡ The Developer Behind the Code
-<table align="center">
-  <tr>
-    <td align="center" width="50%">
-      <b>🚀 Quick Facts</b><br><br>
-      🔭 Building: <b>[Your Next Big Idea / Startup]</b><br>
-      🌱 Mastering: <b>[E.g., Cloud Architecture & AI]</b><br>
-      🧠 Philosophy: <b>"Clean code always wins."</b><br>
-      🤝 Seeking: <b>Open Source Collabs & Hackathons</b>
-    </td>
-    <td align="center" width="50%">
-      <b>🔗 Let's Connect</b><br><br>
-      <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a><br>
-      <a href="https://www.linkedin.com/in/bhatiyahet/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a><br>
-      <a href="https://yourportfolio.com"><img src="https://img.shields.io/badge/Portfolio-252F3F?style=for-the-badge&logo=Web&logoColor=white" /></a>
-    </td>
-  </tr>
-</table>
+## who am i
+
+BSc IT (Data Science) student at Ganpat University. I build things at the intersection of data and vision — dashboards that actually make sense, Python tools that do the boring work, and CV projects because making computers see is genuinely fun.
+
+Also: freelance data analyst + LIC insurance agent. Yes, both. Data during the day, people in the evening.
+
+```python
+het = {
+    "currently":   "BSc IT (Data Science) @ Ganpat University",
+    "building":    ["data pipelines", "CV projects", "automation tools"],
+    "learning":    ["ML model deployment", "cloud infra"],
+    "interests":   ["computer vision", "data viz", "fintech"],
+    "ask_me":      "Python · data analysis · hand gesture UIs",
+    "fun_fact":    "built a whiteboard you control with your fingers 🖐️"
+}
+```
 
 ---
 
-### 💡 Featured Projects
-<!-- Highlight your best work so visitors don't have to search through your repositories -->
-| Project | Description | Tech Stack | Links |
-|---|---|---|---|
-| **[Project Name 1]** | A brief description of what this project does and the problem it solves. | `React` `Node.js` | [Repo](#) \| [Live Demo](#) |
-| **[Project Name 2]** | A brief description of what this project does and the problem it solves. | `Python` `OpenCV` | [Repo](#) \| [Live Demo](#) |
+## stack
+
+**data & analysis**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+
+**computer vision**
+
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-FF6F00?style=flat-square&logo=google&logoColor=white)
+
+**web & tools**
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
 ---
 
-### 🛠️ Arsenal & Tech Stack
+## projects
+
+### 🖐️ Air Canvas
+> *draw in mid-air using only hand gestures + a webcam*
+
+Real-time hand tracking with MediaPipe. Pinch to draw, open hand to lift the pen. 6-color palette, eraser mode, configurable params. Runs at 25–35 FPS on a standard laptop.
+
+`Python` `OpenCV` `MediaPipe` `NumPy`
+
+[→ repo](https://github.com/trambak001/Air_canvas)
+
+---
+
+### 🤖 Jarvis
+> *voice-activated personal assistant — yes, that Jarvis*
+
+Python-based assistant responding to voice commands. Still in progress, but the goal is a fully local, offline-capable assistant.
+
+`Python` `Speech Recognition`
+
+[→ repo](https://github.com/trambak001/jarvis)
+
+---
+
+### 🌐 Bake & typing practice (vac2)
+> *web mini-projects*
+
+HTML/CSS builds — a typing practice app and a baked goods site. Small, but they shipped.
+
+`HTML` `CSS`
+
+[→ Bake](https://github.com/trambak001/Bake) · [→ vac2](https://github.com/trambak001/vac2)
+
+---
+
+## github stats
+
 <div align="center">
-  <!-- Sleek unified skill icons -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs,python,git,docker,linux,mysql,vscode&perline=11" />
-  </a>
+
+![Het's GitHub Stats](https://github-readme-stats.vercel.app/api?username=trambak001&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=trambak001&layout=compact&theme=tokyonight&hide_border=true)
+
 </div>
 
 ---
 
-### 🐍 Contribution Snake
-<!-- This will display the snake eating your contribution graph. See setup instructions below! -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
+## what i'm working on
+
+- leveling up ML deployment (from notebook → actual production)
+- more CV experiments — gesture interfaces are underrated
+- data analysis freelance work (hit me up if you need a dashboard or pipeline cleaned up)
 
 ---
 
-### 🏆 GitHub Milestones & Stats
+## reach me
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bhatiyahet)
+[![GitHub](https://img.shields.io/badge/-GitHub-333?style=flat-square&logo=github&logoColor=white)](https://github.com/trambak001)
+
+---
+
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yourusername&theme=radical&no-frame=true&no-bg=true&margin-w=15" />
-</div>
-<br>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical&hide_border=true&background=0D1117" width="48%" />
+  <sub>19 repos · building in public · Ahmedabad, India</sub>
 </div>
