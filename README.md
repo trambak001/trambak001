@@ -251,7 +251,7 @@ const skillMatrix: Record<string, Proficiency> = {
 // mission_log.ts  —  Q3/Q4 2026
 
 const missionLog = [
-  { task: "Graduate with 8+ CGPA",        status: "🔄 IN PROGRESS" },
+  { task: "Graduate with 8+ CGPA",        status: "complete  " },
   { task: "Ship JARVIS v1 (local, offline)",status: "🔄 BUILDING"   },
   { task: "ML model deployment pipeline",  status: "📚 LEARNING"    },
   { task: "Land first full-time DS role",  status: "🎯 TARGETING"   },
